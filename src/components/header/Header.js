@@ -1,20 +1,23 @@
 import React from 'react'
-import PropTypes from 'prop-types';
+import Logo from './Logo'
+import Topimage from './logo.png'
+import NaviBar from './NaviBar'
 
-export default function Header(props) {
+
+const Header = () => {
     return (
-        <div>
-            <h1>{props.title}</h1>
-            <p>{props.num}</p>
+        <div className='header'>
+            <Logo 
+                img={Topimage}
+            />
+            <NaviBar /> 
         </div>
     )
 }
 
-Header.defaultProps = {
-    title: 'hage',
-}
+export default Header
 
-Header.propTypes = {
-    title: PropTypes.string,
-    num: PropTypes.number,
-}
+
+// Header.defaultProps = {
+//     title: 'hage',
+// }

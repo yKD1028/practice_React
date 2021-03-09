@@ -1,0 +1,29 @@
+/* All */
+body{
+  padding: 70px;
+  font-size: 62.5%;
+
+  /* background-color: brown; */
+}
+
+
+/* Header Components */
+.header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+
+  /* background-color: aqua; */
+}
+
+.navi ul{
+  display: flex;
+}
+
+.navi li{
+  margin-left: 50px;
+}
+
+.header img{
+  width: 70px;
+}
