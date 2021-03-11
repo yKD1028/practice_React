@@ -8,6 +8,7 @@ const Home = () => {
                 Thank you for coming to see my museum.<br />
                 Have a good time!
             </h2>
+            <p>Y.Kodai</p>
         </div>
     )
 }

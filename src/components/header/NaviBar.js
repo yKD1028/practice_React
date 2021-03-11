@@ -5,23 +5,23 @@ const NaviBar = () => {
         <nav className='navi'>
             <ul>
                 <Link to='/'>
-                    <li>HOME</li>
+                    <li>Home</li>
                 </Link>
 
                 <Link to='/museum'>
-                    <li>MUSEUM</li>
+                    <li>Museum</li>
                 </Link>
 
                 <Link>
-                    <li>ABOUT</li>
+                    <li>About</li>
                 </Link>
 
                 <Link>
-                    <li>SKILL</li>
+                    <li>Skill</li>
                 </Link>
 
                 <Link>
-                    <li>CONTACT</li>
+                    <li>Contact</li>
                 </Link>
             </ul>
         </nav>

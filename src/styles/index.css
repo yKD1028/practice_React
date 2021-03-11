@@ -1,29 +1,11 @@
 /* All */
 body{
-  padding: 70px;
   font-size: 62.5%;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
 
-  /* background-color: brown; */
-}
+  color: #3d3d3b;
 
-
-/* Header Components */
-.header{
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.2rem;
-
-  /* background-color: aqua; */
-}
-
-.navi ul{
-  display: flex;
-}
-
-.navi li{
-  margin-left: 50px;
-}
-
-.header img{
-  width: 70px;
+  background-color: #f8f8f8;
 }

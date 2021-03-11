@@ -1,0 +1,53 @@
+/* Header Components */
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+  
+    /* background-color: aqua; */
+  }
+
+  /* NaviBar.js */
+  .navi ul{
+    display: flex;
+  }
+  
+  .navi li{
+    margin-left: 50px;
+    font-family: bilo,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 18px;
+
+  }
+  
+  .header img{
+    width: 70px;
+  }
+
+
+  /* Home.js */
+  .home{
+
+    align-items: center;
+    padding-top: 100px;
+
+    /* background-color: chartreuse; */
+  }
+
+  .home h2{
+    font-size: 4.8rem;
+    font-family: bilo,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .home p{
+    font-size: 3rem;
+    margin-top: 80px;
+    text-align: right;
+    font-family: mina,serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
