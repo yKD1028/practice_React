@@ -31,8 +31,9 @@
 
     align-items: center;
     padding-top: 100px;
+    margin-bottom: 150px;
 
-    /* background-color: chartreuse; */
+    /* background-color: rgb(58, 90, 25); */
   }
 
   .home h2{
