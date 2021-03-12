@@ -6,17 +6,25 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 const Sns = () => {
     return (
         <div className='snsLink'>
-            <a rel="noreferrer" href="https://github.com/yKD1028" target="_blank">
-                <GitHubIcon fontSize="large" color='#3d3d3b;' /> 
-            </a> 
+            <ul>
+                <li>
+                    <a rel="noreferrer" href="https://github.com/yKD1028" target="_blank">
+                        <GitHubIcon fontSize="large" />
+                    </a>
+                </li>
 
-            <a rel="noreferrer" href="https://www.instagram.com/ykd.jp/" target="_blank">
-                <InstagramIcon fontSize="large" color='#3d3d3b;' /> 
-            </a> 
+                <li>
+                    <a rel="noreferrer" href="https://www.instagram.com/ykd.jp/" target="_blank">
+                        <InstagramIcon fontSize="large" />
+                    </a>
+                </li>
 
-            <a rel="noreferrer" href="https://youtu.be/iKyqZnDBBAY" target="_blank">
-                <YouTubeIcon fontSize="large" color='#3d3d3b;' /> 
-            </a>
+                <li>
+                    <a rel="noreferrer" href="https://youtu.be/iKyqZnDBBAY" target="_blank">
+                        <YouTubeIcon fontSize="large" />
+                    </a>
+                </li>
+            </ul>
         </div>
     )
 }

@@ -1,5 +1,16 @@
 .footer{
-
-    
+    height: 110px;
     background-color: chartreuse;
+}
+
+.footer small{
+    font-size: 10px;
+    text-align: center;
+}
+
+.snsLink ul{
+    display: flex;
+}
+.snsLink li{
+    margin-right: 30px;
 }

@@ -9,7 +9,7 @@ const NaviBar = () => {
                 </Link>
 
                 <Link to='/museum'>
-                    <li>Museum</li>
+                    <li>Gallery</li>
                 </Link>
 
                 <Link>

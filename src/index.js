@@ -9,6 +9,7 @@ import './styles/sanitize.css'
 import './styles/index.css';
 import './styles/header.css'
 import './styles/footer.css'
+import './styles/main.css'
 
 
 ReactDOM.render(
