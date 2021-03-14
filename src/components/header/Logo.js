@@ -1,10 +1,11 @@
 import React from 'react'
+import Topimage from './logo.png'
 
-const Logo = (props) => {
+const Logo = () => {
     return (
         <>
             <h1>
-                <img src={props.img} alt="logo" />
+                <img src={ Topimage } alt="logo" />
             </h1>
         </>
     )

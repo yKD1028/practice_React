@@ -8,16 +8,12 @@ const NaviBar = () => {
                     <li>Home</li>
                 </Link>
 
-                <Link to='/museum'>
+                <Link to='/gallery'>
                     <li>Gallery</li>
                 </Link>
 
-                <Link>
+                <Link to='/about'>
                     <li>About</li>
-                </Link>
-
-                <Link>
-                    <li>Skill</li>
                 </Link>
 
                 <Link>

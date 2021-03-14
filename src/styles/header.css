@@ -4,8 +4,7 @@
     width: 100%;
     justify-content: space-between;
     font-size: 1.8rem;
-  
-    /* background-color: aqua; */
+    margin-bottom: 100px;
   }
 
   /* NaviBar.js */
@@ -31,10 +30,7 @@
   .home{
 
     align-items: center;
-    padding-top: 100px;
     margin-bottom: 150px;
-
-    /* background-color: rgb(58, 90, 25); */
   }
 
   .home h2{

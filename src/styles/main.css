@@ -1,9 +1,9 @@
+/* Gallery.js */
 .List{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -13,4 +13,33 @@
 
 .List img{
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Abou.js */
+.about{
+    width: 1300px;
+    margin-top: 1500px;
+    margin: 0 auto;
+    background-color: coral;
+}
+
+/* profile.js */
+.profile{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    background-color: cornflowerblue;
+}
+
+.profile img{
+    width: 250px;
+    height: auto;
+}
+
+.profile p{
+    font-size: 1.3rem;
 }
