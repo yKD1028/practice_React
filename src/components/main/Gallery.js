@@ -2,7 +2,8 @@ import React from 'react'
 
 const Museum = () => {
     return (
-        <div>
+        <div className="gallery">
+            <h2>Gallery</h2>
             <ol className='List'>
                 <li><img src="./img/DSCF0949-min.jpg" alt="hoge" className="wide" style={ picWide } /></li>
                 <li><img src="./img/DSCF3093-min.jpg" alt="hoge" className="mini" style={ picMini } /></li>

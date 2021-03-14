@@ -1,16 +1,34 @@
 .footer{
-    height: 150px;
-    background-color: chartreuse;
+    width: 100%;
+}
+
+.ftr{
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8f8f8;
 }
 
 .footer small{
-    font-size: 10px;
+    font-size: 1rem;
     text-align: center;
+    margin-top: 500px;
 }
-
+.snsLink{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding-bottom: -30px;
+    /* background-color: darkblue; */
+}
 .snsLink ul{
     display: flex;
+    justify-content: center;
+    /* background-color: darkolivegreen; */
+    
 }
 .snsLink li{
-    margin-right: 30px;
+    margin-right: 40px;
+    margin: 0 auto;
 }

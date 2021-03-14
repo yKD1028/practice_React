@@ -1,9 +1,14 @@
 /* Gallery.js */
+.gallery{
+    width: 1300px;
+    margin: 0 auto;
+}
 .List{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 
@@ -19,27 +24,117 @@
 /* Abou.js */
 .about{
     width: 1300px;
-    margin-top: 1500px;
     margin: 0 auto;
-    background-color: coral;
+    margin-bottom: 100px;
+    /* background-color: coral; */
 }
 
 /* profile.js */
 .profile{
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
 
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
 }
 
 .profile img{
-    width: 250px;
+    width: 280px;
     height: auto;
+    box-shadow: 0 0 9px rgba(53, 52, 52, 0.897);
 }
 
 .profile p{
     font-size: 1.3rem;
+    line-height: 40px;
+    margin-left: 30px;
+    font-family: vdl-v7marugothic,sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
+
+/* Skill.js */
+.graph {
+    position: relative; /* IE is dumb */
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 19px rgba(156, 156, 156, 0.3);
+    border-radius: 4px;
+    padding: 2px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: bilo,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.graph h3{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.graph .innerBar{
+    width: 80%;
+    height: 100px;
+    /* background-color: tomato; */
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 10px;
+}
+.graph .htmlbar {
+    width: 90%;
+    display: block;
+    position: relative;
+    background: #6e6e6e;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .jsbar {
+    width: 50%;
+    display: block;
+    position: relative;
+    background: #6e6e6e;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .reactbar {
+    width: 40%;
+    display: block;
+    position: relative;
+    background: #6e6e6e;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .phpbar {
+    width: 30%;
+    display: block;
+    position: relative;
+    background: #6e6e6e;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+.graph .bar span { position: absolute; left: 1em; }

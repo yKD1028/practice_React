@@ -16,9 +16,11 @@ const NaviBar = () => {
                     <li>About</li>
                 </Link>
 
-                <Link>
-                    <li>Contact</li>
-                </Link>
+                
+                <li>
+                    <a href="mailto:kodai.developer@gmail.com">Contact</a>
+                </li>
+                
             </ul>
         </nav>
     )
